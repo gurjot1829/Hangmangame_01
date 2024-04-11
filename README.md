@@ -1,9 +1,15 @@
 Hangman Game README
+
 Introduction
+
 This project is a collaborative effort by Gurjot, Gurleen, and Divyansh, where Divyansh served as the manager, Gurleen as the developer, and Gurjot as the tester. The Hangman Game is implemented in Python using the Tkinter library for the graphical user interface.
+
 Versions Overview
+
 Version 1
+
 Code:
+
 import tkinter as tk
 from tkinter import messagebox
 import random
