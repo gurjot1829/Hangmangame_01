@@ -139,22 +139,24 @@ class HangmanGame:
 
     def reveal_word(self):
         messagebox.showinfo("Word Revealed", f"The word was: {self.word_to_guess}")
-
-def main():
-    root = tk.Tk()
-    game = HangmanGame(root)
-    root.mainloop()
-
-if __name__ == "__main__":
-    main()
+    def main():
+        root = tk.Tk()
+        game = HangmanGame(root)
+        root.mainloop()
+    
+    if __name__ == "__main__":
+        main()
 
 
 Key Features:
+
 •	Implemented using Tkinter for GUI.
 •	Three levels of difficulty: easy, medium, and hard.
 •	Displays hangman figure using canvas.
 •	Shows guessed letters and updates the scoreboard.
+
 Version 2
+
 Code:
 import tkinter as tk
 from tkinter import messagebox
@@ -271,11 +273,14 @@ if __name__ == "__main__":
 
 
 Key Features:
+
 •	Similar to Version 1 but with some modifications.
 •	Removed the scoreboard display.
 •	Streamlined the user interface.
 •	Removed the feature to reveal the word.
+
 Version 3
+
 Code:
 import tkinter as tk
 from tkinter import messagebox
@@ -411,13 +416,18 @@ if __name__ == "__main__":
 
 
 Key Features:
+
 •	Enhanced GUI with hangman images.
 •	Added functionality to reveal the word.
 •	Shows wins and losses in the scoreboard.
 •	Improved user experience with visual representation.
+
 Differences between Versions
+
 •	Version 1: Basic implementation with a focus on functionality. It includes all essential features such as level selection, hangman drawing, and guessing functionality.
 •	Version 2: Streamlined version with improvements in user interface and user experience. It removes some features like the scoreboard for simplicity.
 •	Version 3: Enhanced version with graphical improvements. It includes hangman images for a more engaging experience, along with added features like revealing the word and an improved scoreboard.
+
 Conclusion
+
 The Hangman Game project evolved through three versions, each focusing on different aspects such as functionality, user interface, and graphical enhancements. With contributions from Divyansh, Gurleen, and Gurjot, the project demonstrates teamwork and collaboration in software development.
