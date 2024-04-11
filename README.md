@@ -13,7 +13,6 @@ Code:
 import tkinter as tk
 from tkinter import messagebox
 import random
-
 class HangmanGame:
     def __init__(self, master):
         self.master = master
@@ -151,13 +150,17 @@ class HangmanGame:
 Key Features:
 
 •	Implemented using Tkinter for GUI.
+
 •	Three levels of difficulty: easy, medium, and hard.
+
 •	Displays hangman figure using canvas.
+
 •	Shows guessed letters and updates the scoreboard.
 
 Version 2
 
 Code:
+
 import tkinter as tk
 from tkinter import messagebox
 import random
@@ -275,13 +278,17 @@ if __name__ == "__main__":
 Key Features:
 
 •	Similar to Version 1 but with some modifications.
+
 •	Removed the scoreboard display.
+
 •	Streamlined the user interface.
+
 •	Removed the feature to reveal the word.
 
 Version 3
 
 Code:
+
 import tkinter as tk
 from tkinter import messagebox
 import random
@@ -418,14 +425,19 @@ if __name__ == "__main__":
 Key Features:
 
 •	Enhanced GUI with hangman images.
+
 •	Added functionality to reveal the word.
+
 •	Shows wins and losses in the scoreboard.
+
 •	Improved user experience with visual representation.
 
 Differences between Versions
 
 •	Version 1: Basic implementation with a focus on functionality. It includes all essential features such as level selection, hangman drawing, and guessing functionality.
+
 •	Version 2: Streamlined version with improvements in user interface and user experience. It removes some features like the scoreboard for simplicity.
+
 •	Version 3: Enhanced version with graphical improvements. It includes hangman images for a more engaging experience, along with added features like revealing the word and an improved scoreboard.
 
 Conclusion
